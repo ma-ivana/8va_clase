@@ -2,6 +2,7 @@
 
 body {
     text-align: center;
+    border: 0;
     scroll-behavior: smooth;
 }
 
@@ -17,19 +18,46 @@ a {
     padding-top: 20px;
     padding-left: 3%;
     font-family: Montserrat;
+    width: 100%;
+    position: fixed;
 }
 
-.item {
+.item-1 {
     display: inline-block;
     margin-left:1%;
+    /* padding-top: 20px; */
     font-weight: 600;
+    position: absolute;
+    right: 460px;
+
+}
+
+.item-2 {
+    display: inline-block;
+    margin-left:1%;
+    /* padding-top: 20px; */
+    font-weight: 600;
+    position: absolute;
+    right: 330px;
+
+}
+
+.item-3 {
+    display: inline-block;
+    margin-left:1%;
+    /* padding-top: 20px; */
+    font-weight: 600;
+    position: absolute;
+    right: 200px;
+
 }
 
 h1 {
     display: inline-block;
-    margin-right: 50%;
+    position: absolute;
     font-weight: 900;
     font-size: large;
+    left: 100px;
 }
 
 .main {
@@ -38,7 +66,9 @@ h1 {
     font-family: Montserrat;
     color: #FFFFFF;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 120px;
+    width: 100%;
+    
 }
 
 span {

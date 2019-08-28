@@ -25,7 +25,7 @@ a {
 .item-1 {
     display: inline-block;
     margin-left:1%;
-    /* padding-top: 20px; */
+    padding-top: 20px;
     font-weight: 600;
     position: absolute;
     right: 460px;
@@ -35,7 +35,7 @@ a {
 .item-2 {
     display: inline-block;
     margin-left:1%;
-    /* padding-top: 20px; */
+    padding-top: 20px;
     font-weight: 600;
     position: absolute;
     right: 330px;
@@ -45,7 +45,7 @@ a {
 .item-3 {
     display: inline-block;
     margin-left:1%;
-    /* padding-top: 20px; */
+    padding-top: 20px;
     font-weight: 600;
     position: absolute;
     right: 200px;

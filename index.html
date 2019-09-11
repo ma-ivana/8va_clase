@@ -16,7 +16,7 @@
         <div class="menu">
             <h4><a href="#portfolio">PORTFOLIO</a></h4>
             <h4><a href="#about">ABOUT</a></h4>      
-            <h4>CONTACT</h4>
+            <h4><a href="#contact">CONTACT</a></h4>
         </div>
     </div>
 
@@ -53,6 +53,26 @@
     <div class="btext">
         <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>     
     </div>
-  
+
+    <div class="middle">
+        <span id="contact">CONTACTO</span>
+        <hr><br><br>
+    </div>
+    <form action="/contacto" method="get">
+        <label for="nombre">Nombre<br>
+            <input id="nombre" required type=text name="name">
+        </label>
+        <label for="correo">Correo electrónico<br>
+            <input id="correo" required type=email name="correo">
+        </label>
+        <label for="nombre">Número de teléfono<br>
+            <input id="telefono" type=number maxlength="12" name="telefono">
+        </label>
+        <label for="mensaje">Mensaje<br>
+            <textarea id="mensaje" required rows="6" type=text name="mensaje"></textarea>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+    
 </body>
 </html>
